@@ -46,20 +46,43 @@ li {
 
 li:hover {
     color: black;
+    cursor: pointer;
 }
 
 /* MAIN SECTION */
 main {
-    background-color: yellow;
-    height: 400px;
+    /* background-color: yellow; */
     margin-bottom: 10px;
 }
+
+.main-title {
+    background-image: url(./img/banner.jpg);
+    height: 400px;
+    background-position: center;
+    border-radius: 20px;
+}
+
+.main-title .content {
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 400px;
+    padding: 280px 30px 0 ;
+
+}
+
+.content {
+    
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 10px;
+    
+}
+
 
 /* TITLE SECTION */
 .title {
     background: turquoise;
     height: 70px;
-    
 }
 
 
