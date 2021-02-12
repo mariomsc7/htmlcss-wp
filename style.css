@@ -7,7 +7,7 @@
 }
 
 body {
-    margin: auto 20%;
+    margin: auto 25%;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -99,8 +99,8 @@ main {
 
 /* FLOAT SECTION */
 .box {
-    background-color: rgb(0, 140, 255);
-    margin-bottom: 10px;
+     /* background-color: rgb(0, 140, 255);  */
+    margin-bottom: 100px;
 }
 
 .box > .left,
@@ -109,12 +109,50 @@ main {
     float: left;
 }
 
+.description {
+    font-size: 10px;
+    color: gray;
+}
+
+h5 {
+  
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#pic1 {
+    
+    width: 170px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    
+    
+}
+
+#pic2 {
+    width: 560px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+#pic3 {
+    width: 170px;
+    height: 150px;
+    border-radius: 20px;
+    border: 1px solid gray;
+}
+
+
 .left {
     width: 18%;
     height: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background: turquoise;
+    
+    
+    /* background: turquoise; */
 }
 
 .center{
@@ -124,7 +162,7 @@ main {
     margin-left: 2%;
     margin-right: 2%;
     height: 300px;
-    background: turquoise;
+    /* background: turquoise; */
 }
 
 .right{
@@ -132,11 +170,16 @@ main {
     height: 300px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background:turquoise;
+    /* background:turquoise; */
 }
 
 /* FOOTER SECTION */
 footer {
-    background-color: purple;
+    text-align: center;
+    /* background-color: purple; */
     height: 50px;
+}
+
+#hearth {
+    color: red;
 }
