@@ -81,8 +81,19 @@ main {
 
 /* TITLE SECTION */
 .title {
-    background: turquoise;
+    /* background: turquoise; */
+    margin: 20px 0;
     height: 70px;
+}
+
+.title h2 {
+    font-size: 30px;
+}
+
+.title p {
+
+    color: gray;
+    
 }
 
 
